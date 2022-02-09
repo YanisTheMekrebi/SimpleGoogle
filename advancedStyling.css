@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    color: rgb(221, 60, 60);
+    padding-left: 30px;
+}
+
+h3 {
+    font-weight: normal;
+    color: #444444;
+    padding-left: 30px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 10px;
+    padding-left: 30px;
+    color: #444444;
+}
+
+form > input {
+    padding: 5px;
+}
+
+form > button {
+    position: relative;
+    left: 1300px;
+    border-color: rgb(45, 45, 241);
+    font-weight: bold;
+    color: white;
+    background-color: rgb(57, 57, 238);
+}
